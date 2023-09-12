@@ -62,3 +62,53 @@ body {
     text-align: right;
     color: white;
 }
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 2rem;
+}
+
+.inscription h2 {
+    font-family: Enriqueta;
+    font-weight: 700;
+}
+
+.inscription label {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.inscription input {
+    border: 1px solid #829CF6;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.inscription input::placeholder {
+    color: black;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.inscription select {
+    border: 1px solid #829CF6;
+    height: 3.1rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.inscription button {
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    background-color: rgba(246, 17, 86, 0.87);
+    color: white;
+    font-family: Enriqueta;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-left: 14.4rem;
+}

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/airbnb-logo.png">
     <title>Incio</title>
 </head>
 
@@ -21,7 +25,25 @@
         </nav>
     </header>
     <div class="container">
-        <section class="login"></section>
+        <section class="login">
+            <form class="inscription" action="">
+                <h2>Reserve and have <br> unique experiences.</h2>
+                <label for="place">Where</label>
+                <input id="place" type="text" placeholder="Anywhere">
+                <label for="in">Check-In</label>
+                <input id="in" type="date" placeholder="dd/mm/aaaa">
+                <label for="out">Check-Out</label>
+                <input id="out" type="date" placeholder="dd/mm/aaaa">
+                <label for="question">Guests</label>
+                <select name="" id="question">
+                    <option value="">1 Guest</option>
+                    <option value="">2 Guest</option>
+                    <option value="">3 Guest</option>
+                    <option value="">4 Guest</option>
+                </select>
+                <button>Search</button>
+            </form>
+        </section>
         <section class="content">
             <h3>More than 300<br>unique accomodations in Puerto Rico</h3>
         </section>
