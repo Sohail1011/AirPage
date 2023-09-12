@@ -16,3 +16,13 @@ console.log(consumer['lastName']);
 // Eliminar la propiedad
 delete consumer.vacation;
 console.log(consumer);
+
+// Cambiar los valores de la propiedad
+consumer.days = 1;
+console.log(consumer.days);
+
+
+const { name, lastName } = consumer;
+
+console.log(name);
+console.log(lastName);

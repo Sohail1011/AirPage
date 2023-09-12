@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,4 +12,40 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.81rem;
+    list-style: none;
+}
+
+.item {
+    font-weight: 700;
+    color: white;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 2fr 1fr;
+}
+
+.login {
+    margin-top: 7rem;
+    width: 24.375rem;
+    height: 33.5625rem;
+    background-color: white;
 }
