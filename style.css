@@ -24,7 +24,7 @@ body {
 .options {
     display: flex;
     justify-content: space-around;
-    gap: 1.81rem;
+    gap: 5rem;
     list-style: none;
 }
 
@@ -48,4 +48,17 @@ body {
     width: 24.375rem;
     height: 33.5625rem;
     background-color: white;
+}
+
+.content {
+    width: 77rem;
+    height: 50rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.content h3 {
+    text-align: right;
+    color: white;
 }
